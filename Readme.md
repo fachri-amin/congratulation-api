@@ -2,16 +2,24 @@
 
 Fast, unopinionated, minimalist web framework for [Node.js](http://nodejs.org).
 
-[![NPM Version][npm-version-image]][npm-url]
-[![NPM Install Size][npm-install-size-image]][npm-install-size-url]
-[![NPM Downloads][npm-downloads-image]][npm-downloads-url]
-
 ## Quick Start
 
 Install dependencies:
 
 ```console
 $ npm install
+```
+
+Migrate database:
+
+```console
+$ npm run migrate:run
+```
+
+Run seeders:
+
+```console
+$ npm run sedd:all
 ```
 
 Start the development server:
